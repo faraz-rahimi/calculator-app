@@ -96,7 +96,7 @@ input {
   background: var(--operator);
 }
 
-.equal {
+.equals {
   background: var(--equal);
 }
 
