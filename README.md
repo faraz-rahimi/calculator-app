@@ -21,6 +21,9 @@ A modern and responsive calculator application built with **HTML**, **CSS**, and
 - Toggle between light and dark themes.
 - Dynamic theme icon switching (`🌙` / `☀️`).
 
+### live demo
+-https://faraz-rahimi.github.io/calculator-app/
+
 ### 🛡️ Input Validation
 - Prevents entering multiple operators in sequence.
   - `5+-` → `5-`
