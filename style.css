@@ -2,6 +2,10 @@
   --white: #fff;
   --background: #f3f4f6;
   --primary: #c3c3c3;
+  --clear-background: #f1a9a5;
+  --clear-color: #ff3b30;
+  --operator: #ff9500;
+  --equal: #34c759;
   /* drak-mode colors */
   --black: #252525;
   --background-dark: #303031;
@@ -28,7 +32,7 @@ main {
   background: var(--white);
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.549);
+  box-shadow: 0 10px 30px rgba(19, 19, 19, 0.215);
 }
 
 .display {
@@ -68,8 +72,8 @@ main {
 }
 
 .clear {
-  background: #f1a9a5;
-  color: #ff3b30;
+  background: var(--clear-background);
+  color: var(--clear-color);
 }
 
 input {
@@ -89,19 +93,19 @@ input {
 .subtract,
 .multiply,
 .divide {
-  background: #ff9500;
+  background: var(--operator);
 }
 
-.equals {
-  background: #34c759;
+.equal {
+  background: var(--equal);
 }
 
 .dark .clear {
-  background: #ff3b30;
   color: var(--black);
 }
 .dark .calculator {
   background: var(--calculator-background);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.549);
 }
 .dark #display {
   background: var(--black);
